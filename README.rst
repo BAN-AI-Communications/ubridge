@@ -30,7 +30,7 @@ In the source directory:
 
     make
     sudo make install
-    
+
 FreeBSD
 ################################################
 
@@ -40,10 +40,10 @@ In the source directory:
 
     gmake
     sudo gmake install
-    
+
 Be sure to modify gns_server.conf to point to /usr/local/bin/ubridge.
-    
-    
+
+
 Windows
 ################################################
 
@@ -440,7 +440,7 @@ IOL Bridge module ("iol_bridge")
 
 * iol_bridge add_packet_filter *<name>* *<bay>* *<unit>* *<filter_name>* *<filter_type>*
 
-* iol_bridge reset_packet_filters *<name>* *<bay>* *<unit>* 
+* iol_bridge reset_packet_filters *<name>* *<bay>* *<unit>*
 
 * iol_bridge start_capture *<name>* "*<output_file>*" *<data_link_type>*
 
@@ -454,7 +454,7 @@ This will bridge a tap0 interface to an UDP tunnel.
 Start the hypervisor:
 
 .. code:: bash
-    
+
     user@host# ./ubridge -H 2232
     Hypervisor TCP control server started (port 2232).
 
